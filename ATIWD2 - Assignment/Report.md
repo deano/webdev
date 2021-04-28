@@ -46,21 +46,20 @@ The below image is a screenshot of the scatter chart.
 - Drop down list to select Station.
 - Spinner to select hour from 0-23.
 
-![https://imgur.com/1wklt5I](https://imgur.com/1wklt5I)
-
+<a href="https://imgur.com/1wklt5I"><img src="https://i.imgur.com/1wklt5I.png" title="source: imgur.com" /></a>
 ### Line Chart
 - User can select 6 stations by holding CTRL or CMD depending on the OS.
 - Drop down list to select pollutant from: NO, NOX, NO2.
 - Date in (DD/MM/YYYY) format using HTML date.
 
-![https://imgur.com/8y2AI28](https://imgur.com/8y2AI28)
+<a href="https://imgur.com/8y2AI28"><img src="https://i.imgur.com/8y2AI28.png" title="source: imgur.com" /></a>
 
 
 ## Maps	
 - Clicking on marker shows the values of the monthly average for the station
 - User can choose year and pollutant form the drop down list
-- 
-![https://imgur.com/mTLJn4o](https://imgur.com/mTLJn4o)
+
+<a href="https://imgur.com/mTLJn4o"><img src="https://i.imgur.com/mTLJn4o.png" title="source: imgur.com" /></a>
 
 ## Further Improvements
 For further improvements I could have created a web page, which has a navigation bar allowing you to navigate around and see the work produced, the charts and maps. For example, a drop down tab on the navigation bar listing the Charts would allow you to choose which to view: Line & Scatter charts. To do so, I would have to render the charts and maps into HTML files.
