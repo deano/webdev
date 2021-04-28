@@ -1,0 +1,184 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+#map {
+    height: 70%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+.current-map-info {
+    width: fit-content;
+    min-height: 40px;
+    position: absolute;
+    background-color: #b31f1f;
+    color: white;
+    font-weight: 600;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 15px 0;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.modal {
+    width: fit-content;
+    height: fit-content;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
+
+.modal-dialog, .modal-content {
+    width: fit-content !important;
+}
+
+div.color-code {
+    margin: 20px auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    position: relative;
+    width: fit-content;
+}
+
+.group {
+    display: flex;
+    flex-flow: row;
+}
+
+.group > div {
+    display: flex;
+    flex-flow: row;
+    width: 140px;
+}
+
+.group > div > div{
+    width: 45%;
+    height: 20px;
+    text-align: center;
+}
+
+.group > div > div > small {
+    font-weight: 500;
+    color: white;
+}
+
+div.color-0 {
+    background-color: #57CEF3;
+}
+
+div.color-1 {
+    background-color: #00BF43;
+}
+
+div.color-2 {
+    background-color: #79ba00;
+}
+
+div.color-3 {
+    background-color: #bbc402;
+}
+
+div.color-4 {
+    background-color: #c99a00;
+}
+
+div.color-5 {
+    background-color: #c26800;
+}
+
+div.color-6 {
+    background-color: #bf2a00;
+}
+
+div.color-7 {
+    background-color: #bf0083;
+}
+
+.group>p {
+    margin-left: 40px;
+}
+
+.form {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form * {
+    margin: 0 5px;
+    max-height: 30px;
+}
+
+.form h4 {
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+.form button {
+    outline: none;
+    border: none;
+    color: white;
+    background-color: green;
+    padding: 5px 25px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.form select {
+    outline: none;
+    border: none;
+    background: green;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: white;
+}
+
+option {
+    margin: 5px;
+}
+
+option.selected {
+    background-color: #1fddae;
+}
+
+div.map-note {
+    color: #d80f0f;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media(min-width: 481px) {
+    .group > div > div{
+        width: 50%;
+    }
+}
+
+@media(min-width: 768px) {
+    .current-map-info {
+        top: 10px;
+    }
+}
+
+@media(min-width: 900px) {
+    div.notes {
+        display: flex;
+        justify-content: center;
+    }
+
+    div.notes > div {
+        width: 40%;
+    }
+}
